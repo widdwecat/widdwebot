@@ -27,8 +27,4 @@ bot.on('chat', (username, message) => {
     if(message === 'widdwebot') {
         bot.chat("what")
     }
-
-    if(message === '!coords') {
-        bot.chat("My coords are: " + bot.position)
-    }
 })
